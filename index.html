@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-white sm md lg xl">
+        <div class="container-fluid">
+          <img style="width: 5%;" src="https://cdn.vectorstock.com/i/preview-1x/96/67/e-explore-internet-world-logo-vector-4059667.jpg" alt="no img">
+          <a style="font-size: 23px; font-weight: 600;" class="navbar-brand" href="#">Explore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="font-size: 18px;" class="nav-link active" aria-current="page" href="#aboutus">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a style="font-size: 18px;" class="nav-link active" aria-current="page" href="#packages">Packages</a>
+              </li>
+              
+              <li class="nav-item">
+                <a style="font-size: 18px;" class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a style="font-size: 18px;" class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <!-- carousel -->
+      <div id="carouselExampleInterval" class="carousel carousel-dark slide sm md lg xl" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img style="height: 650px;" src="https://free4kwallpapers.com/uploads/originals/2015/10/11/sunset-at-cap-keri-south-west-end-of-the-greek-island-zakynthos-wallpaper.jpg" class="d-block w-100 " alt="no img">
+
+            <div class="card-img-overlay">
+              <h1 style="margin-top: 250px; color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="card-title text-center">Explore The World</h1>
+            </div>  
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="height: 650px;" src="https://cdn.londonandpartners.com/-/media/images/london/visit/things-to-do/sightseeing/london-attractions/tower-bridge-exhibition/london-attraction-hero.jpg?mw=1920&hash=B103FB12EAD689B0B7923A435EAF6E292B59E8DF
+            " class="d-block w-100" alt="no img">
+            <div class="card-img-overlay">
+              <h1 style="margin-top: 250px; color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="card-title text-center">Explore The World</h1>
+            </div> 
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="height: 650px;" src="https://free4kwallpapers.com/uploads/originals/2015/10/17/most-beautiful-travel-destinations.jpg" class="d-block w-100" alt="no img">
+            <div class="card-img-overlay">
+              <h1 style="margin-top: 250px; color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="card-title text-center">Explore The World</h1>
+            </div> 
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="height: 650px;" src="https://www.enjoylondon.com/wp-content/uploads/2022/02/enjoy-london.webp" class="d-block w-100" alt="no img">
+            <div class="card-img-overlay">
+              <h1 style="margin-top: 250px; color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="card-title text-center">Explore The World</h1>
+            </div> 
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="height: 650px;" src="https://free4kwallpapers.com/uploads/originals/2017/04/14/ross-lake-north-cascades-national-park-wallpaper.jpg" class="d-block w-100 h-2" alt="no img">
+            <div class="card-img-overlay">
+              <h1 style="margin-top: 250px; color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" class="card-title text-center">Explore The World</h1>
+            </div> 
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+      
+      <section style="padding: 10rem; " class="aboutus-section " id="aboutus">
+
+        <div class="container px-4 px-lg-5">
+          
+          <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+              <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 w-100" src="https://media.istockphoto.com/id/1395417668/photo/group-of-people-hiking-in-the-mountains.jpg?s=612x612&w=0&k=20&c=-L-0vQ3eH1gK9LRCrU_iBmNff5HYIi2JwYfSbxv3Cd4=" alt="..." /></div>
+              <div class="col-xl-4 col-lg-5">
+                  <div style="padding: 0 0 0 2rem; border-left: 0.5rem solid #64a19d;" class="featured-text text-center text-lg-left">
+                      <h3 class="text-center" style="margin-left: 1rem;">About Us</h3>
+                      <p class="text-50 mb-0 " style="font-size: 19px; color: rgb(92, 89, 89); margin-left: 1rem;">Welcome to Explore, where we turn travel dreams into unforgettable experiences. As avid explorers ourselves, we understand that every journey is a story waiting to be written. That's why we founded Explore - to inspire and facilitate extraordinary adventures for every type of traveler.Join us on a journey beyond the ordinary. <br> Let's explore the world together.</p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+
+      
+
+  
+    
+  
+  <section id="packages">
+
+  <div style="margin-left: 3%; margin-bottom:0;"><h2 style="color: rgb(57, 21, 90);" class="sm md lg xl text-center">Our Tour Packages</h2></div>
+
+<!-- CARD -->
+      <div style=" padding: 2% 8%;" class="row row-cols-1 row-cols-md-4 g-4 sm md lg xl">
+        <div class="col">
+          <div class="card h-100" >
+            <img src="https://media.istockphoto.com/id/1389624449/photo/singapore-downtown-at-the-sunrise.webp?b=1&s=170667a&w=0&k=20&c=CBgTC0VtmHzS_L8HTR_PzZr2BmdUGJ9F693tGMFHgm4=" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">SINGAPORE</h5>
+              <p class="card-text">Starting From
+                Rs.29,990 <br>
+                Per Person on twin sharing</p>
+                <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/517972764/photo/kuala-lumpur-urban-scene-malaysia.webp?b=1&s=170667a&w=0&k=20&c=5R4qWwMvEleXveqBGziVYcpqLln5uaTBCd7AmbrFKgI=" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">MALAYSIA</h5>
+              <p class="card-text ">Starting From
+                Rs.23,500 <br>
+                Per Person on twin sharing</p>
+                <a href="#" class="btn btn-warning ">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/1467343926/photo/a-happy-couple-stands-on-the-beautiful-beach-of-railay-krabi.jpg?s=612x612&w=0&k=20&c=vutxHmt77aMhJUp-3xL7VrOTQ2kcQ6o3L-QIVMgo03I=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">THAILAND</h5>
+                <p class="card-text">Starting From
+                  Rs.25,500 <br>
+                  Per Person on twin sharing</p>
+                  <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/154918211/photo/city-of-dubai-burj-khalifa.jpg?s=612x612&w=0&k=20&c=IQ1upJGlnISqrBcBpmDS8HTCw-u6j08GkrFwV2QEMQk=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DUBAI</h5>
+                <p class="card-text">Starting From
+                  Rs.30,000 <br>
+                  Per Person on twin sharing</p>
+                  <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img style="height: 60%;" src="https://media.istockphoto.com/id/1181549619/photo/panoramic-view-of-new-york-city-and-the-statue-of-liberty.webp?b=1&s=170667a&w=0&k=20&c=Za_7X5jExgkUFg14rUR84k43uPSyLR0WlWsTd3bFUBU=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NEW YORK</h5>
+                <p class="card-text">Starting From
+                  Rs.65,500 <br>
+                  Per Person on twin sharing</p>
+                  <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/1412945775/photo/aerial-drone-view-of-desert-island-and-coral-reef-in-maldives.jpg?s=612x612&w=0&k=20&c=MjzFXuQOuuthylGoOVcGMrgctP5uCpWPEhQ0kjKm7Gg=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MALDIVES</h5>
+              <p class="card-text">Starting From
+                Rs.80,000 <br>
+                Per Person on twin sharing</p>
+                <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img style="height: 60%;" src="https://media.istockphoto.com/id/1347665170/photo/london-at-sunset.webp?b=1&s=170667a&w=0&k=20&c=d86MWmxOCDEC_ax8GfUeaxzEFcUGKm_q1b-MnDPA7Eg=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">LONDON</h5>
+              <p class="card-text">Starting From
+                Rs.48,000 <br>
+                Per Person on twin sharing</p>
+                <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://media.istockphoto.com/id/1436430810/photo/paris-eiffel-tower.webp?b=1&s=170667a&w=0&k=20&c=Qm33k45p4AGKtbNcqkx5hhfP7IRo8RYIpW_VdgE2bDU=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FRANCE</h5>
+              <p class="card-text">Starting From
+                Rs.41,000 <br>
+                Per Person on twin sharing</p>
+                <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-left: 85%;" class=" sm md lg xl"><a href="#" class="btn btn-success">SEE MORE</a></div>
+ 
+    </section>
+
+      <!-- services -->
+
+      <section class="Services">
+
+      <div style="margin-top: 5%; margin-bottom:0;"><h2 class="text-center">Our Services</h2></div>
+      <div style=" padding: 2% 15%;" class="row row-cols-1 row-cols-md-3 g-5">
+        
+        <div class="col">
+          <div  class="card">
+            <img style="transition: 0.5s ease-in-out;" src="https://images.unsplash.com/photo-1560055932-927be486d086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRpbmluZyUyMG91dHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Good Food and Drink</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi ea blanditiis ipsam facilis architecto labore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img style="transition: 0.5s ease-in-out;" src="https://static.standard.co.uk/2023/03/17/07/Hotel%20Motto%20%28c%29%20Oliver%20Jiszda%20%20%2810%29.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Affordable Stay</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi ea blanditiis ipsam facilis architecto labore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img style="transition: 0.5s ease-in-out;" src="https://media.istockphoto.com/id/1071461664/photo/having-a-tour-through-the-city-streets.jpg?s=612x612&w=0&k=20&c=nlr914eKeQkYVpv7UgKCGU1oWLd97eRCi5e3jRggEhw=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Best Guide</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi ea blanditiis ipsam facilis architecto labore.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <section id="gallery">
+      <h2 class="text-center" style="margin-top: 8%; ">Gallery</h2>
+      <div class="container mt-5" style="box-sizing: border-box; display: flex;flex-wrap: wrap;">
+        
+        <div class="photos "  >
+
+          <img style="width: 100%; margin: 3px 0;" src="https://media.istockphoto.com/id/1333897240/photo/female-hiker-with-backpack-sitting-on-top-of-the-mountain-enjoying-the-view-during-the-day.jpg?s=612x612&w=0&k=20&c=0asQ6tO2RKKRzs-K0eBzZvKiG6UM7t35SMkECvH3bNA=" alt="no img">
+          <img style="width: 100%; height: 430px; margin: 3px 0;" src="https://media.istockphoto.com/id/108315128/photo/maldives.jpg?s=612x612&w=0&k=20&c=tJtrrFUdHGHU5jTrXcD0oc-T3T53yX7Ce_0fGVTOF5A=" alt="no img">
+
+        </div>
+        <div class="photos">
+
+          <img style="width: 100%; height: 194px; margin: 3px 0;" src="https://media.istockphoto.com/id/1155191473/photo/mountain-trip-with-friends-are-great.jpg?s=612x612&w=0&k=20&c=06MwEY9jvPmoHi-6nmHvgU_jvYMkQw9RMCF24EHu6oI=" alt="no img">
+          <img style="width: 100%; height: 230px; margin: 3px 0;" src="https://media.istockphoto.com/id/1708110098/photo/female-tourist-enjoying-vacation-in-london-uk.jpg?s=612x612&w=0&k=20&c=d_1FFKMNsWIcXJNuR6p82zfextxL4hygebkc14RrXsI=" alt="no img">
+          <img style="width: 100%;  margin: 3px 0;" src="https://media.istockphoto.com/id/1144980050/photo/smiling-young-people-enjoying-nature-beside-tents-and-talking-outdoor.jpg?s=612x612&w=0&k=20&c=DD3leTm4nWy99WX-BqPZJ6r7xEd6B6F-ZdpogQ-7x9E=" alt="no img">
+
+        </div>
+        <div class="photos ">
+
+          <img style="width: 100%; margin: 3px 0;" src="https://media.istockphoto.com/id/1210741211/photo/couple-men-an-woman-honeymoon-paris-eiffel-tower-couple-men-and-woman-city-trip-in-paris.jpg?s=612x612&w=0&k=20&c=ugoSi_OVrRBr1ZIUJLckasiDfh7eoYLXMT-AUNXGiiQ=" alt="no img">
+          <img style="width: 100%; height: 245px; margin: 3px 0;" src="https://media.istockphoto.com/id/957429322/photo/a-man-grilling-satay-by-the-street.jpg?s=612x612&w=0&k=20&c=naADYP7X83h_GOo8z_pfG9U1tnQwxASD0nDHK2AVejE=" alt="no img">
+          
+
+        </div>
+        <div class="photos ">
+
+          <img style="width: 100%; height: 219px; margin: 3px 0;" src="https://media.istockphoto.com/id/838524728/photo/traditional-chinese-lanterne-and-architecture.jpg?s=612x612&w=0&k=20&c=1cQG__UqIuVMrBj0Y3xo79dvAXTkBXBVxwPOyplfi0k=" alt="no img">
+          <img style="width: 100%; margin: 3px 0;" src="https://media.istockphoto.com/id/1532802175/photo/river.jpg?s=612x612&w=0&k=20&c=c9gUnaCFjTCzBrl0FCeJbNz4fP-EyMibcGGB585yv5Y=" alt="no img">
+          
+
+        </div>
+      </div>
+    </section>
+
+
+      
+      <section id="contact" class="sm md lg xl" style=" background: url(https://img.freepik.com/free-photo/flat-lay-hat-notebook-arrangement_23-2148786126.jpg?w=1060&t=st=1696800672~exp=1696801272~hmac=9be2ff40aad215064ce33e46c53e02fa317d65d7918705958adf0611faa8b97a); background-size: cover;">
+        <div style="margin-top: 10%;" >
+          <div><h2   class="text-center">Book Your Package </h2></div>
+
+
+          <div style="margin-left: 37.5%; margin-top: 3%;" class="w-25">
+            <form>
+              <div class="row mb-3">
+                <label for="name" class="col-sm-5 col-form-label">Name</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="name">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="contact" class="col-sm-5 col-form-label">Contact No</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="contact">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-5 col-form-label">Email</label>
+                <div class="col-sm-7">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="travel" class="col-sm-5 col-form-label">Travel Destination</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="travel">
+                </div>
+              </div>
+              
+                  
+            
+              
+            </form>
+            
+          </div>
+          <div style="margin-top: 2%; " class="text-center"><a href="#" class="btn btn-success">Submit</a></div>
+  
+          
+            
+              
+            <div class="footer"
+                            
+                    
+                  
+                <div style="margin-top: 5%;"><h4 class="text-center" style="color: rgb(56, 31, 26);">Contact Us</h4></div>
+          
+          
+                  <!-- MOBILE NUMBER -->
+                   <div class="text-center">
+                                                          
+                    <i class="fa-solid fa-phone"></i>
+                    <span style="color: rgb(29, 25, 142);" >04971-320346</span>
+          
+                   </div> 
+          
+                <!-- e mail -->
+                   <div style="margin-bottom: 2%;" class="text-center">
+                    
+                    <i class="fa-solid fa-envelope"></i>
+                    <span style="color:  rgb(29, 25, 142); margin-bottom: 10%;">exploreworld@gmail.com</span>
+          
+                   </div>
+
+                <div>
+
+                  <!-- icon -->
+                  <div style="display: flex; align-items: center;margin-left: 43%;position: relative;" class="icondiv  sm md lg xl ">
+                      <!-- icon 1 -->
+                      <div class="icon">
+                          <a href=""><i style="color: rgba(93, 43, 201, 0.859); font-size: 25px;margin: 0 10px;" class="fa-brands fa-facebook-f"></i></a>
+
+                      </div>
+
+                      <!-- icon 2 -->
+                      <div class="icon">
+                          <a href=""><i style="color: rgba(93, 43, 201, 0.859) ; font-size: 25px;margin: 0 10px;"  class="fa-brands fa-instagram"></i></a>
+
+                      </div>
+
+                      <!-- icon 3 -->
+                      <div class="icon">
+                          <a href=""><i style="color: rgba(93, 43, 201, 0.859); font-size: 25px; margin: 0 10px;"  class="fa-brands fa-twitter"></i></a>
+
+                      </div>
+
+                      <!-- icon 4 -->
+                      <div class="icon">
+                        <a href=""><i style="color: rgba(93, 43, 201, 0.859); font-size: 25px; margin: 0 10px;"  class="fa-brands fa-linkedin"></i></a>
+
+                      </div>
+
+                      <!-- icon 5 -->
+                      <div class="icon">
+                         <a href=""><i style="color: rgba(93, 43, 201, 0.859); font-size: 25px; margin: 0 10px;"  class="fa-brands fa-pinterest"></i></a>
+
+                      </div>
+
+                </div>
+              </div>
+                <p style="margin-top: 1%;" class="footer-p text-center" >&copy;explore website 2023,All Rights Reserved &reg;explore</p>
+
+            </div>
+              
+
+            </div>
+          </section>
+      
+            
+          
+        
+</div>  
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

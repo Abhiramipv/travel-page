@@ -1,0 +1,28 @@
+.photos{
+    flex: 25%;
+    padding: 0 3px;
+}
+
+img{
+    /* transform: scale(0.99); */
+    transition: 0.5s ease-in-out;
+}
+img:hover{
+    transform: scale(1.04);
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+@media(max-width: 991px){
+    .photos{
+        flex: 50%;
+    }
+}
+
+@media(max-width: 767px){
+    .photos{
+        flex: 100%;
+    }
+}
